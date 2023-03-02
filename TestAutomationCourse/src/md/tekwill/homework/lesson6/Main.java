@@ -44,6 +44,10 @@ public class Main {
         myBike.setNumberOfWheels(2);
         myBike.setColor("black");
         myBike.showVehicleDetails();
+
+        SideCarMotorcycle streetSportBike = new SideCarMotorcycle("Red", 2, "Honda");
+        streetSportBike.showVehicleDetails();
+
     }
 
 

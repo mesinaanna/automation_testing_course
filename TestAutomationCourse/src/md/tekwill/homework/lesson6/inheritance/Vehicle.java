@@ -5,6 +5,15 @@ public class Vehicle {
     private String color;
     private int numberOfWheels;
 
+    public Vehicle(){
+
+    }
+
+    public Vehicle(String color, int numberOfWheels){
+        this.color = color;
+        this.numberOfWheels = numberOfWheels;
+    }
+
     public void setColor(String color){
        this.color = color;
     }
